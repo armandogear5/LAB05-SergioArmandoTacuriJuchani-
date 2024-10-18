@@ -1,3 +1,5 @@
+/*---------------------------------------EJERCICIO 1------------------------------------------*/
+
 .container-1 {
   width: 100px;
   height: 100px;
@@ -17,7 +19,7 @@
 .container-3 {
   width: 100px;
   height: 100px;
-  background-color: lightgreen;
+  background-color: red;
   color: white;
   text-align: center;
 }
@@ -69,6 +71,206 @@
   color: white;
   text-align: center;
 }
+/*----------------------------------EJERCICIO 2-------------------------------------------*/
+/*.parent {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(5, 100px);
+  grid-template-areas: 
+    "container-1 container-2 container-3"
+    "container-4 container-5 container-6"
+    "container-7 container-8 container-9";
+}
 
+.container-1, 
+.container-2, 
+.container-3,
+.container-4,
+.container-5, 
+.container-6, 
+.container-7, 
+.container-8,
+.container-9 {
+  color: white;
+  text-align: center;
+}
+
+.container-1 { 
+  background-color: red; 
+  grid-area: container-1;
+}
+
+.container-2 { 
+  background-color: blue; 
+  grid-area: container-2;
+}
+
+.container-3 { 
+  background-color: red; 
+  grid-area: container-3;
+}
+
+.container-4 { 
+  background-color: black; 
+  grid-area: container-4;
+}
+
+.container-5 { 
+  background-color: orange; 
+  grid-area: container-5;
+}
+
+.container-6 { 
+  background-color: brown; 
+  grid-area: container-6;
+}
+
+.container-7 { 
+  background-color: green; 
+  grid-area: container-7;
+}
+
+.container-8 { 
+  background-color: cyan; 
+  grid-area: container-8;
+}
+
+.container-9 { 
+  background-color: aquamarine;
+  grid-area: container-9;
+}
+*/
+/*---------------------------------------------------------------EJERCICIO 3----------------------------------*/
+/*
 .parent {
-}  
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(5, 100px);
+  grid-template-areas: 
+    "container-1 container-1 container-1"
+    "container-9 container-9 container-9"
+    "container-7 container-7 container-7"
+    "container-2 container-3 container-4"
+    "container-5 container-6 container-8";
+}
+
+.container-1, 
+.container-2, 
+.container-3,
+.container-4,
+.container-5, 
+.container-6, 
+.container-7, 
+.container-8,
+.container-9 {
+  color: white;
+  text-align: center;
+}
+
+.container-1 { 
+  background-color: red; 
+  grid-area: container-1;
+}
+
+.container-2 { 
+  background-color: blue; 
+  grid-area: container-2;
+}
+
+.container-3 { 
+  background-color: lightgreen; 
+  grid-area: container-3;
+}
+
+.container-4 { 
+  background-color: black; 
+  grid-area: container-4;
+}
+
+.container-5 { 
+  background-color: orange; 
+  grid-area: container-5;
+}
+
+.container-6 { 
+  background-color: brown; 
+  grid-area: container-6;
+}
+
+.container-7 { 
+  background-color: green; 
+  grid-area: container-7;
+}
+
+.container-8 { 
+  background-color: cyan; 
+  grid-area: container-8;
+}
+
+.container-9 { 
+  background-color: aquamarine;
+  grid-area: container-9;
+}*/
+
+/*-------------------------------------------------------EJERCICO 4 ----------------------------------*/
+/*
+.parent {
+  display: grid;
+  grid-template-columns: repeat(5, 100px);
+  grid-template-rows: repeat(4, 100px);
+  grid-template-areas: 
+    "container-1 container-1 container-1 container-1 container-1"
+    "container-2 container-2 container-3 container-4 container-4"
+    "container-2 container-2 container-3 container-5 container-6"
+    "container-7 container-8 container-9 container-9 container-9";
+}
+
+[class^="container"] {
+  color: white;
+  text-align: center;
+}
+
+.container-1 { 
+  background-color: red; 
+  grid-area: container-1;
+}
+
+.container-2 { 
+  background-color: blue; 
+  grid-area: container-2;
+}
+
+.container-3 { 
+  background-color: lightgreen; 
+  grid-area: container-3;
+}
+
+.container-4 { 
+  background-color: black; 
+  grid-area: container-4;
+}
+
+.container-5 { 
+  background-color: orange; 
+  grid-area: container-5;
+}
+
+.container-6 { 
+  background-color: brown; 
+  grid-area: container-6;
+}
+
+.container-7 { 
+  background-color: green; 
+  grid-area: container-7;
+}
+
+.container-8 { 
+  background-color: cyan; 
+  grid-area: container-8;
+}
+
+.container-9 { 
+  background-color: aquamarine;
+  grid-area: container-9;
+}*/
